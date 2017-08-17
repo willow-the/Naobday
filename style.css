@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+}
+#marqueee {
+  margin: 200px;
+  border: 30px dashed;
+  border-color: aqua;
+  background-color: black;
+}
+h1 {
+  font-family: 'Dancing Script', cursive;
+  text-decoration: underline wavy violet;
+  height: 50px;
+  color: white;
+  font-weight: 1000;
+  font-size: 40px;
+}
