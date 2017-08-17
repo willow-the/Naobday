@@ -2,9 +2,9 @@ body {
   background-color: black;
 }
 #marqueee {
-  margin: 200px;
+  margin-left: 100px;
   border: 30px dashed;
-  border-color: aqua;
+  border-color: mediumspringgreen;
   background-color: black;
 }
 h1 {
@@ -14,4 +14,18 @@ h1 {
   color: white;
   font-weight: 1000;
   font-size: 40px;
+}
+h1::selection {
+  background: indianred;
+  color: white;
+}
+h2 {
+  color: white;
+  width: 300px;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Play', sans-serif;
+}
+mark {
+  color: white;
+  background-color: black;
 }
