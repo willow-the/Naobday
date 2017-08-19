@@ -1,5 +1,32 @@
+@keyframes blink {
+  0% {
+    background: violet;
+  }
+  14.3% {
+    background: indigo;
+  }
+  28.6% {
+    background: blue;
+  }
+  42.9% {
+    background: green;
+  }
+  57.2% {
+    background: yellow;
+  }
+  71.5% {
+    background: orange;
+  }
+  85.8% {
+    background: red;
+  }
+  100% {
+    background: violet;
+  }
+}
 body {
-  background-color: black;
+  animation: blink 20s linear infinite;
+-webkit-animation: blink 20s linear infinite;
 }
 #marqueee {
   margin-left: 100px;
@@ -24,8 +51,8 @@ h2 {
   width: 300px;
   font-family: 'Dancing Script', cursive;
   font-family: 'Play', sans-serif;
+  margin-left: 600px;
 }
 mark {
   color: white;
-  background-color: black;
 }
